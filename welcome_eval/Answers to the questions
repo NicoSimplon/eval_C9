@@ -1,0 +1,20 @@
+- What is Lumen based on?
+Laravel which is based on Symfony.
+
+- What is composer and what is it used for?
+Composer is a php package manager. It is used by many php frameworks to manage the dependencies of a project.
+
+- What command in your terminal allow you to start your project server?
+php -S localhost:8000 -t public
+
+- In which folder is your HTML stored?
+It is in resources/views/welcome.php
+
+- What is the method that allows me to check whether a view exists?
+It is the exists() method. It return a boolean.
+
+- In which format/type does the information passed need to be before being received by the view?
+It need to be in an array with key/value pairs.
+
+- Explain how do the concepts of View/Controller/Routing work together.
+The view is what will be rendered on the navigator page. The Controller is used to pass variables and methods to a view. And the Routing is used to create an url for a page and call the appropriate controller. So when an url is entered in the navigator, it call a controller which can render a view. In the view we can access all the variables and the method which are passed to it by the controller.
